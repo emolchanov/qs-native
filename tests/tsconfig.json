@@ -1,16 +1,18 @@
 {
     "compilerOptions": {
-        "baseUrl": "src",
-        "outDir": "lib",
-        "module": "ES6",
+        "module": "ESNext",
         "moduleResolution": "node",
         "sourceMap": false,
-        "target": "ES6",
+        "types": [
+            "node",
+            "jest"
+        ],
+        "target": "ESNext",
         "declaration": true,
         "alwaysStrict": true,
-        "esModuleInterop": false,
+        "esModuleInterop": true,
     },
     "include": [
-        "src/**/*",
+        "**/*",
     ],
 }

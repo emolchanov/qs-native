@@ -7,6 +7,7 @@
     "start": "tsc -w",
     "build": "tsc",
     "test": "jest --coverage",
+    "test:watch": "jest --coverage --watchAll",
     "prepublishOnly": "npm run build"
   },
   "repository": {
@@ -28,6 +29,7 @@
   },
   "homepage": "https://github.com/emolchanov/qslite#readme",
   "devDependencies": {
+    "@types/jest": "^27.0.1",
     "jest": "^27.0.6",
     "ts-jest": "^27.0.4",
     "typescript": "^4.3.5"
@@ -35,6 +37,11 @@
   "jest": {
     "transform": {
       "^.+\\.ts$": "ts-jest"
+    },
+    "globals": {
+      "ts-jest": {
+        "tsconfig": "./tests/tsconfig.json"
+      }
     }
   }
 }
