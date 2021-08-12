@@ -1,7 +1,7 @@
 {
-  "name": "qslite",
-  "version": "1.0.0",
-  "description": "Lightweight querystring parse() & stringify() based on browser APIs",
+  "name": "qs-native",
+  "version": "0.1.0",
+  "description": "Lightweight querystring parse() & stringify() based on URLSearchParams APIs",
   "main": "lib/index.js",
   "scripts": {
     "start": "tsc -w",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/emolchanov/qslite.git"
+    "url": "git+https://github.com/emolchanov/qs-native.git"
   },
   "keywords": [
     "querystring",
@@ -20,14 +20,16 @@
     "query",
     "url",
     "parse",
-    "stringify"
+    "stringify",
+    "native",
+    "URLSearchParams"
   ],
   "author": "Eugene Molchanov <eugene.a.molchanov@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/emolchanov/qslite/issues"
+    "url": "https://github.com/emolchanov/qs-native/issues"
   },
-  "homepage": "https://github.com/emolchanov/qslite#readme",
+  "homepage": "https://github.com/emolchanov/qs-native#readme",
   "devDependencies": {
     "@types/jest": "^27.0.1",
     "jest": "^27.0.6",
