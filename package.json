@@ -1,0 +1,40 @@
+{
+  "name": "qslite",
+  "version": "1.0.0",
+  "description": "Lightweight querystring parse() & stringify() based on browser APIs",
+  "main": "lib/index.js",
+  "scripts": {
+    "start": "tsc -w",
+    "build": "tsc",
+    "test": "jest --coverage",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emolchanov/qslite.git"
+  },
+  "keywords": [
+    "querystring",
+    "qs",
+    "query",
+    "url",
+    "parse",
+    "stringify"
+  ],
+  "author": "Eugene Molchanov <eugene.a.molchanov@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/emolchanov/qslite/issues"
+  },
+  "homepage": "https://github.com/emolchanov/qslite#readme",
+  "devDependencies": {
+    "jest": "^27.0.6",
+    "ts-jest": "^27.0.4",
+    "typescript": "^4.3.5"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.ts$": "ts-jest"
+    }
+  }
+}
