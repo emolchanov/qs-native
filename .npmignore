@@ -1,5 +1,7 @@
 .idea
 .vscode
+.github
 coverage
 src
 tests
+tsconfig.json
