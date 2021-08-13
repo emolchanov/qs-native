@@ -11,5 +11,5 @@ export interface StringifyOptions {
 }
 
 export interface ParseOptions {
-  strictNullHandling: boolean;
+  strictNullHandling?: boolean;
 }
