@@ -26,7 +26,7 @@ qs.stringify({ a: "b", c: "d" });
 
 strictNullHandling: boolean - optional
 ```js
-qs.parse("?a=b&c");
+qs.parse("?a=b&c", { strictNullHandling: true });
 //=> { a: "b", c: null }
 ```
 
