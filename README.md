@@ -4,7 +4,7 @@ Lightweight querystring parse &amp; stringify based on URLSearchParams API
 
 `npm install qs-native` 
 
-![npm](https://img.shields.io/npm/v/qs-native?label=Latest)
+[![npm](https://img.shields.io/npm/v/qs-native?label=Latest)](https://www.npmjs.com/package/qs-native)
 [![Coverage Status](https://coveralls.io/repos/github/emolchanov/qs-native/badge.svg?branch=main)](https://coveralls.io/github/emolchanov/qs-native?branch=main)
 [![CodeQL](https://github.com/emolchanov/qs-native/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/emolchanov/qs-native/actions/workflows/codeql-analysis.yml)
 [![NodeJS Tests CI](https://github.com/emolchanov/qs-native/actions/workflows/node.js.yml/badge.svg)](https://github.com/emolchanov/qs-native/actions/workflows/node.js.yml)
